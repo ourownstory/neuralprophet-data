@@ -1,0 +1,22 @@
+source:
+https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather
+
+
+Context
+In a paper released early 2019, forecasting in energy markets is identified as one of the highest leverage contribution areas of Machine/Deep Learning toward transitioning to a renewable based electrical infrastructure.
+
+Content
+This dataset contains 4 years of electrical consumption, generation, pricing, and weather data for Spain. Consumption and generation data was retrieved from ENTSOE a public portal for Transmission Service Operator (TSO) data. Settlement prices were obtained from the Spanish TSO Red Electric España. Weather data was purchased as part of a personal project from the Open Weather API for the 5 largest cities in Spain and made public here.
+
+Acknowledgements
+This data is publicly available via ENTSOE and REE and may be found in the links above.
+
+Inspiration
+The dataset is unique because it contains hourly data for electrical consumption and the respective forecasts by the TSO for consumption and pricing. This allows prospective forecasts to be benchmarked against the current state of the art forecasts being used in industry.
+
+Visualize the load and marginal supply curves.
+What weather measurements, and cities influence most the electrical demand, prices, generation capacity?
+Can we forecast 24 hours in advance better than the TSO?
+Can we predict electrical price by time of day better than TSO?
+Forecast intraday price or electrical demand hour-by-hour.
+What is the next generation source to be activated on the load curve?
